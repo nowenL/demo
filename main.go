@@ -10,7 +10,7 @@ const (
 )
 
 func handler(w http.ResponseWriter, r *http.Request) {
-	message := fmt.Sprintf(template, "Hello cloud v1.0")
+	message := fmt.Sprintf(template, "Hello cloud v2.0")
 	fmt.Println("Response with: " + message)
 	fmt.Fprintf(w, message)
 }
